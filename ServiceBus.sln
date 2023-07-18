@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.Api", "ServiceBus.Api\ServiceBus.Api.csproj", "{8C8C2798-DD81-41AC-B896-D625ECAD8A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.Contracts", "ServiceBus.Contracts\ServiceBus.Contracts.csproj", "{F7541BF9-FEB4-434F-A753-DB4B92950C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.Consumer", "ServiceBus.Consumer\ServiceBus.Consumer.csproj", "{20AD999E-8B70-4E8A-A1F3-72E7177333C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C8C2798-DD81-41AC-B896-D625ECAD8A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8C2798-DD81-41AC-B896-D625ECAD8A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8C2798-DD81-41AC-B896-D625ECAD8A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8C2798-DD81-41AC-B896-D625ECAD8A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7541BF9-FEB4-434F-A753-DB4B92950C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7541BF9-FEB4-434F-A753-DB4B92950C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7541BF9-FEB4-434F-A753-DB4B92950C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7541BF9-FEB4-434F-A753-DB4B92950C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AD999E-8B70-4E8A-A1F3-72E7177333C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AD999E-8B70-4E8A-A1F3-72E7177333C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AD999E-8B70-4E8A-A1F3-72E7177333C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AD999E-8B70-4E8A-A1F3-72E7177333C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
