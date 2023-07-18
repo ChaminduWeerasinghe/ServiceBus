@@ -27,14 +27,13 @@ public class CustomerConsumerService : BackgroundService
             await _subscriptionClient.CompleteAsync(message.SystemProperties.LockToken);
         }, new MessageHandlerOptions(async args =>
         {
-            Console.WriteLine(args.Exception);
-            _logger.LogError("{}",args.Exception);
+            _logger.LogError("{ArgsException}",args.Exception);
             await Task.CompletedTask;
         })
         {
             MaxConcurrentCalls = 1,
             AutoComplete = false
         });
-        throw new NotImplementedException();
+        return Task.CompletedTask;
     }
 }
